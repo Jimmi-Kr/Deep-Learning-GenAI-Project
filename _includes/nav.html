@@ -1,0 +1,10 @@
+<nav style="margin: -10px 0 25px 0; padding-bottom: 12px; border-bottom: 1px solid #e1e4e8; font-size: 15px;">
+  {% for item in site.nav_pages %}
+    {% assign item_url = item.url | relative_url %}
+    {% if page.url == item.url or (item.url == "/" and page.url == "/index.html") %}
+      <strong style="margin-right: 16px;">{{ item.title }}</strong>
+    {% else %}
+      <a href="{{ item_url }}" style="margin-right: 16px; text-decoration: none;">{{ item.title }}</a>
+    {% endif %}
+  {% endfor %}
+</nav>

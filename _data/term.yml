@@ -1,0 +1,31 @@
+# =========================================================================
+# EDIT THIS FILE EACH TERM. Every page on the site pulls its dynamic
+# values (dates, links, cutoffs) from here — you should not need to touch
+# any .md page just because a date or link changed.
+# =========================================================================
+
+term_code: "t22026"                      # used in notebook/W&B naming, e.g. DL-21f1001234-notebook-t22026
+
+# --- Key dates ---
+project_release_date: "May 22, 2026"
+viva_window: "July 1 – July 31, 2026"
+
+# --- Links (replace the placeholders with the real ones each term) ---
+kaggle_competition_link: "<<ADD KAGGLE COMPETITION LINK>>"
+registration_form_url: "<<ADD REGISTRATION FORM LINK>>"
+report_submission_form_url: "<<ADD REPORT SUBMISSION FORM LINK>>"
+deployment_form_url: "<<ADD DEPLOYMENT FORM LINK>>"
+orientation_recording_url: "<<ADD ORIENTATION RECORDING LINK>>"
+registration_slides_url: "<<ADD 'GitHub Repo Setup + Credential Validation' SLIDES LINK>>"
+sample_repo_structure_url: "<<ADD SAMPLE GITHUB REPO STRUCTURE LINK>>"
+report_sample_format_url: "<<ADD SAMPLE REPORT FORMAT LINK>>"
+evaluation_policy_url: "https://docs.google.com/document/d/e/2PACX-1vRk6UIkK14-ZCsEJsoQZpWHcNTQgs-0CF30efRCrR3YLGLSu_SqBS0BspY3WYXRprITWUSbV-xz0UUR/pub"
+
+# --- Kaggle / admin ---
+kaggle_admin_username: "dlgenaiproject"
+kaggle_cutoff: "0.73"
+
+# --- Form deadlines ---
+form1_deadline: "30/06/2026"
+form2_deadline: "31/07/2026 (late: 10/08/2026)"
+form3_deadline: "31/07/2026 (late: 10/08/2026)"
