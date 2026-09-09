@@ -1,8 +1,10 @@
 ---
-layout: page
+layout: default
 title: Milestones
 permalink: /milestones.html
 ---
+{% include nav.html %}
+{% include eval_banner.html %}
 
 # Milestone Plan
 

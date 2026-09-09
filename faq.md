@@ -1,8 +1,10 @@
 ---
-layout: page
+layout: default
 title: FAQ
 permalink: /faq.html
 ---
+{% include nav.html %}
+{% include eval_banner.html %}
 
 # Frequently Asked Questions
 

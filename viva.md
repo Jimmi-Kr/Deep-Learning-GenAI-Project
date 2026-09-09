@@ -1,8 +1,10 @@
 ---
-layout: page
+layout: default
 title: Viva
 permalink: /viva.html
 ---
+{% include nav.html %}
+{% include eval_banner.html %}
 
 # Viva Process
 

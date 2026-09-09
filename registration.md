@@ -1,8 +1,10 @@
 ---
-layout: page
+layout: default
 title: Registration
 permalink: /registration.html
 ---
+{% include nav.html %}
+{% include eval_banner.html %}
 
 # Project Registration (Setup Only)
 

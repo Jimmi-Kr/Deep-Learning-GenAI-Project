@@ -1,14 +1,22 @@
 title: DL & GenAI Project Course
 description: Guidelines, deadlines and resources for the Deep Learning & Generative AI project (Diploma in Data Science and Applications)
-theme: minima
 
-# Pages shown in the top navigation bar (minima theme reads this list)
-header_pages:
-  - index.md
-  - registration.md
-  - grading.md
-  - milestones.md
-  - viva.md
-  - faq.md
+# --- Theme ---
+# Cayman is one of GitHub Pages' built-in supported themes (no plugins/gems to install,
+# works purely by setting this line). Clean gradient header, no cluttered footer.
+# Other built-in options you can swap in by changing just this one line:
+#   jekyll-theme-slate      -> dark, technical look
+#   jekyll-theme-architect  -> minimal, sidebar-free, very plain/professional
+#   jekyll-theme-minimal    -> simple sidebar layout
+theme: jekyll-theme-cayman
 
 markdown: kramdown
+
+# Used by _includes/nav.html to render the page navigation on every page.
+nav_pages:
+  - { title: "Overview",     url: "/" }
+  - { title: "Registration", url: "/registration.html" }
+  - { title: "Grading",      url: "/grading.html" }
+  - { title: "Milestones",   url: "/milestones.html" }
+  - { title: "Viva",         url: "/viva.html" }
+  - { title: "FAQ",          url: "/faq.html" }

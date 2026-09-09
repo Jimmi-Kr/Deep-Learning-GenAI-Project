@@ -1,8 +1,10 @@
 ---
-layout: page
+layout: default
 title: Grading
 permalink: /grading.html
 ---
+{% include nav.html %}
+{% include eval_banner.html %}
 
 # Grading Breakdown
 

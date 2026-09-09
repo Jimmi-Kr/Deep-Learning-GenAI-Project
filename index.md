@@ -1,13 +1,13 @@
 ---
-layout: home
+layout: default
 title: Overview
+permalink: /
 ---
+{% include nav.html %}
+{% include eval_banner.html %}
 
 # Deep Learning & Generative AI Project
 ### Diploma Level, BS in Data Science and Applications
-
-> 📌 **Latest evaluation policy:** [Click here]({{ site.data.term.evaluation_policy_url }})
-> This link always points to the current term's policy — check it regularly, since it is updated independently of this site.
 
 ## What this project is about
 
