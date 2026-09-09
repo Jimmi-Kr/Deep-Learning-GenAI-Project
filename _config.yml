@@ -1,0 +1,14 @@
+title: DL & GenAI Project Course
+description: Guidelines, deadlines and resources for the Deep Learning & Generative AI project (Diploma in Data Science and Applications)
+theme: minima
+
+# Pages shown in the top navigation bar (minima theme reads this list)
+header_pages:
+  - index.md
+  - registration.md
+  - grading.md
+  - milestones.md
+  - viva.md
+  - faq.md
+
+markdown: kramdown
