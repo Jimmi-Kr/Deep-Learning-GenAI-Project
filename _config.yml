@@ -1,14 +1,10 @@
 title: DL & GenAI Project Course
 description: Guidelines, deadlines and resources for the Deep Learning & Generative AI project (Diploma in Data Science and Applications)
 
-# --- Theme ---
-# Cayman is one of GitHub Pages' built-in supported themes (no plugins/gems to install,
-# works purely by setting this line). Clean gradient header, no cluttered footer.
-# Other built-in options you can swap in by changing just this one line:
-#   jekyll-theme-slate      -> dark, technical look
-#   jekyll-theme-architect  -> minimal, sidebar-free, very plain/professional
-#   jekyll-theme-minimal    -> simple sidebar layout
-theme: jekyll-theme-cayman
+# No "theme:" line — the site uses its own layout at _layouts/default.html,
+# which gives full control over the header (height, buttons, static title).
+# If you ever want the old built-in-theme look back, delete _layouts/default.html
+# and add back a line like: theme: jekyll-theme-cayman
 
 markdown: kramdown
 
